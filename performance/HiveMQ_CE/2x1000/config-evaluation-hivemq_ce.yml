@@ -1,0 +1,25 @@
+# Evaluation config
+BROKER_NAME: HiveMQ CE
+ENV_FILE: env/hivemq_ce.env
+NR_OF_MESSAGES: 1000
+NR_OF_EXPERIMENTS: 2
+CLIENT_COMPOSE_FILE: docker-compose.yml
+DOCKER_NETWORK: evaluationnet
+
+# MQTT config
+BROKER_URL: HiveMQBroker
+BROKER_PORT: 1883
+TOPIC: broker/evaluation/topic
+QOS: 2
+MAXIMUM_MESSAGE_INTERVAL: 30
+TLS_ENABLED: False
+PUBLISH_SLEEP_TIME: 0
+REATTEMPTS: -1
+
+# Reliability config
+BROKER_CONTAINER: HiveMQBroker
+BROKER_COMPOSE_FILE: brokers/HiveMQ/docker-compose-HiveMQ.yml
+BROKER_DISCONNECTS: 2
+NETWORK_DISCONNECTS: 2
+
+

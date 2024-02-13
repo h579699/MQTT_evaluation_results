@@ -1,0 +1,43 @@
+{
+  "Evaluation_Configuration": {
+    "Broker_Name": "HiveMQ CE",
+    "MQTT_Configuration": {
+      "NAME": "Analyzer Subscriber",
+      "CLIENT_ID": "analyzer.20240209_134842",
+      "BROKER_URL": "HiveMQBroker",
+      "BROKER_PORT": 1883,
+      "TOPIC": "broker/evaluation/topic",
+      "QOS": 2,
+      "TLS": false,
+      "CLEAN_START": false,
+      "KEEPALIVE": 120,
+      "SESSION_EXPIRY_INTERVAL": 3600,
+      "REATTEMPTS": -1,
+      "RECONNECT_MIN_DELAY": 2,
+      "RECONNECT_MAX_DELAY": 3600
+    },
+    "Nr_of_Experiments": 2,
+    "Nr_of_Experiment_Logs": 2,
+    "Experiment_Ids": [
+      "20240209_134842",
+      "20240209_134948"
+    ],
+    "Publisher": "virtualuwsn",
+    "Subscriber": "mqtt_analyzer"
+  },
+  "Latency": {
+    "Average": 5246.784476490004,
+    "Min": 2.197998046875,
+    "Max": 13947.007568359375,
+    "Average_SD": 4270.963431071512,
+    "Unit": "Milliseconds",
+    "Valid_Experiments": "2/2"
+  },
+  "Messages": {
+    "Expected": 4000,
+    "Received": 3970,
+    "Average_Received": 1985,
+    "Duplicates": 0,
+    "Average_Duplicates": 0
+  }
+}
