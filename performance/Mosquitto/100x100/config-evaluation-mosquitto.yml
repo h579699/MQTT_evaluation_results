@@ -1,0 +1,23 @@
+# Evaluation config
+BROKER_NAME: Mosquitto
+ENV_FILE: env/mosquitto.env
+NR_OF_MESSAGES: 100
+NR_OF_EXPERIMENTS: 100
+CLIENT_COMPOSE_FILE: docker-compose.yml
+DOCKER_NETWORK: evaluationnet
+
+# MQTT config
+BROKER_URL: MosquittoBroker
+BROKER_PORT: 1883
+TOPIC: broker/evaluation/topic
+QOS: 2
+MAXIMUM_MESSAGE_INTERVAL: 30
+TLS_ENABLED: False
+PUBLISH_SLEEP_TIME: 0
+REATTEMPTS: -1
+
+# Reliability config
+BROKER_CONTAINER: MosquittoBroker
+BROKER_COMPOSE_FILE: brokers/Mosquitto/docker-compose-Mosquitto.yml
+BROKER_DISCONNECTS: 2
+NETWORK_DISCONNECTS: 2

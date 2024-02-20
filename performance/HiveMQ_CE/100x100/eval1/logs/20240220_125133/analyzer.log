@@ -1,0 +1,5417 @@
+12:51:33[INFO]:Analyzer Configuration: 
+Expected messages: 100 
+Maximum message interval: 60 
+Sleep time: 10
+12:51:33[INFO]:Analyzer Subscriber: [Initialized] 
+MQTT Client Configuration: 
+NAME: Analyzer Subscriber 
+CLIENT_ID: analyzer.20240220_125133 
+BROKER_URL: HiveMQBroker:1883 
+TOPIC: broker/evaluation/topic:2 
+CONNECT CONFIG: tls=False, clean_start=False, keepalive=120, session_expiry_interval=3600 
+REATTEMPT CONFIG: attemtps=-1, min-delay=2, max-delay=3600
+12:51:33[INFO]:Analyzer Subscriber: [Connecting]
+12:51:33[INFO]:Analyzer Subscriber: [Connected]
+12:51:33[INFO]:Analyzer Subscriber: [Subscribing to 'broker/evaluation/topic', rc: Granted QoS 2]
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "1",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.422348+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.2",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 51
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "2",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.434321+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 101
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "3",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.439099+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 151
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "4",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.443812+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 201
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "5",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.448071+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 251
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "6",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.452481+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 301
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "7",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.457312+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 351
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "8",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.461026+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 401
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "9",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.465836+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 451
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "10",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.470110+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 501
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "11",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.474164+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 551
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "12",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.479038+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.3",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 601
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "13",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.483782+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 651
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "14",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.488145+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 701
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "15",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.492636+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 751
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "16",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.495526+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 801
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "17",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.499818+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 851
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "18",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.504209+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 901
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "19",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.508656+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 951
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "20",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.514293+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1001
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "21",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.516952+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1051
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "22",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.521857+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1101
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "23",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.526136+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1151
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "24",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.530305+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.4",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1201
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "25",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.534023+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1251
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "26",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.538661+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1301
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "27",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.542561+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1351
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "28",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.546090+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1401
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "29",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.549681+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1451
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "30",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.554018+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1501
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "31",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.557306+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1551
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "32",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.561326+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1601
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "33",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.565549+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1651
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "34",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.569936+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1701
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "35",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.576581+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1751
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "36",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.581847+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.5",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1801
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "37",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.588471+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1851
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "38",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.594362+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1901
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "39",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.598760+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 1951
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "40",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.602874+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2001
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "41",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.605912+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2051
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "42",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.609498+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2101
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "43",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.614332+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2151
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "44",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.616839+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2201
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "45",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.620254+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2251
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "46",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.624584+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2301
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "47",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.629062+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2351
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "48",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.633806+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.6",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2401
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "49",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.638544+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2451
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "50",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.642500+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2501
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "51",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.645588+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2551
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "52",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.649185+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2601
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "53",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.652530+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2651
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "54",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.656440+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2701
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "55",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.661463+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2751
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "56",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.666408+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2801
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "57",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.670095+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2851
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "58",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.674627+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2901
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "59",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.677970+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 2951
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "60",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.682634+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3001
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "61",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.686624+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.7",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3051
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "62",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.690777+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3101
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "63",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.695265+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3151
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "64",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.702127+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3201
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "65",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.705062+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3251
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "66",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.709914+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3301
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "67",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.713672+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3351
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "68",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.718381+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3401
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "69",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.721968+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3451
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "70",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.726311+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3501
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "71",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.733585+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3551
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "72",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.738529+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.8",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3601
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "73",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.741702+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3651
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "74",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.746834+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3701
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "75",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.750533+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3751
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "76",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.755644+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3801
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "77",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.759698+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3851
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "78",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.763332+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3901
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "79",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.766610+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 3951
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "80",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.771165+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4001
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "81",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.774894+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4051
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "82",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.778571+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4101
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "83",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.782581+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4151
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "84",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.786011+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4201
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "85",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.789999+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-5.9",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4251
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "86",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.793879+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4301
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "87",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.797892+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4351
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "88",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.801514+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4401
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "89",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.806276+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4451
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "90",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.811619+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4501
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "91",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.819484+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4551
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "92",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.823313+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4601
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "93",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.830531+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4651
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "94",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.834159+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4701
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "95",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.840525+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.0",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4751
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "96",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.848487+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.1",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4801
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "97",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.854326+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.1",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4851
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "98",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.864790+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.1",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4901
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "99",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.869139+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.1",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 4951
+12:51:33[INFO]:Analyzer Subscriber: [Received message] 
+ {
+    "format": "SMARTOCEAN_V1",
+    "metadata": {
+        "description": "SmartOcean VUWSN Sensor Hub Timeseries",
+        "timeseries": "SmartOceanVUWSN:0001",
+        "origin": "SmartOceanVUWSN:0001"
+    },
+    "data": [
+        {
+            "dp_id": "100",
+            "source": "SmartOcean VUWSN Sensor Hub",
+            "source_id": "0001",
+            "location": {
+                "latitude": 60.0,
+                "longitude": 5.5
+            },
+            "time": "2024-02-20T12:51:33.873211+00:00",
+            "observations": [
+                {
+                    "source": "Virtual Temperature Sensor",
+                    "source_id": "0001",
+                    "parameter": "sea_water_temperature",
+                    "value": "-6.1",
+                    "unit": "degrees_C",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Conductivity Sensor",
+                    "source_id": "0002",
+                    "parameter": "sea_water_electrical_conductivity",
+                    "value": "2.9",
+                    "unit": "S m-1",
+                    "qualityCodes": [
+                        0
+                    ]
+                },
+                {
+                    "source": "Virtual Battery Sensor",
+                    "source_id": "0003",
+                    "parameter": "battery_level",
+                    "value": "4.9",
+                    "unit": "percentage",
+                    "qualityCodes": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
+12:51:33[INFO]:Received message with mid: 5001
+12:52:43[INFO]:Generating report
+12:52:43[INFO]:Analyzer Subscriber: [Disconnecting]
