@@ -1,0 +1,56 @@
+{
+  "Evaluation_Configuration": {
+    "Broker_Name": "Mosquitto",
+    "Analyzer_Configuration": {
+      "Expected_messages": 100,
+      "Maximum_message_interval": 300,
+      "Check_interval": 10
+    },
+    "MQTT_Configuration": {
+      "NAME": "Analyzer Subscriber",
+      "CLIENT_ID": "analyzer.20240320_075528",
+      "BROKER_URL": "MosquittoBroker",
+      "BROKER_PORT": 1883,
+      "TOPIC": "broker/evaluation/topic",
+      "QOS": 2,
+      "TLS": false,
+      "CLEAN_START": false,
+      "KEEPALIVE": 120,
+      "SESSION_EXPIRY_INTERVAL": 3600,
+      "REATTEMPTS": -1,
+      "REATTEMPT_MIN_DELAY": 2,
+      "REATTEMPT_MAX_DELAY": 60
+    },
+    "Nr_of_Experiments": 10,
+    "Nr_of_Experiment_Logs": 10,
+    "Experiment_Ids": [
+      "20240320_075528",
+      "20240320_080930",
+      "20240320_082333",
+      "20240320_083736",
+      "20240320_085139",
+      "20240320_090542",
+      "20240320_091945",
+      "20240320_093348",
+      "20240320_094750",
+      "20240320_100153"
+    ],
+    "Publisher": "virtualuwsn",
+    "Subscriber": "mqtt_analyzer"
+  },
+  "Latency": {
+    "Average": 2.960694754464286,
+    "Min": 2.22998046875,
+    "Max": 35.23095703125,
+    "Average_SD": 1.7511528802749665,
+    "Unit": "Milliseconds",
+    "Valid_Experiments": "10/10"
+  },
+  "Messages": {
+    "Expected": 1000,
+    "Received": 700,
+    "Average_Received": 70,
+    "Duplicates": 0,
+    "Average_Duplicates": 0
+  }
+}
