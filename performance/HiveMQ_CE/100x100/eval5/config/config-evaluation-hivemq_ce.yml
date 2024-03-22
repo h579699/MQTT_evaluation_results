@@ -1,0 +1,20 @@
+# Evaluation config
+BROKER_NAME: HiveMQ CE
+ENV_FILE: env/hivemq_ce.env
+NR_OF_EXPERIMENTS: 100
+NR_OF_MESSAGES_PER_PUBLISHER: 100
+CLIENT_COMPOSE_FILE: docker-compose.yml
+DOCKER_NETWORK: evaluationnet
+NR_OF_SUBSCRIBERS: 1
+NR_OF_PUBLISHERS: 1
+
+# Reliability config
+BROKER_CONTAINER: HiveMQBroker
+BROKER_COMPOSE_FILE: brokers/HiveMQ/docker-compose-HiveMQ.yml
+NR_OF_FAILURES: 2
+FAILURE_INTERVAL: 60
+FAILURE_PERIOD: 180
+
+
+
+
