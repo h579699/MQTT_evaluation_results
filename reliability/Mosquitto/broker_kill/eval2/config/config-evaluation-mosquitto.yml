@@ -1,0 +1,18 @@
+# Evaluation config
+BROKER_NAME: Mosquitto
+ENV_FILE: env/mosquitto.env
+NR_OF_EXPERIMENTS: 10
+NR_OF_MESSAGES_PER_PUBLISHER: 100
+CLIENT_COMPOSE_FILE: docker-compose.yml
+DOCKER_NETWORK: evaluationnet
+NR_OF_SUBSCRIBERS: 1
+NR_OF_PUBLISHERS: 1
+
+# Reliability config
+BROKER_CONTAINER: MosquittoBroker
+BROKER_COMPOSE_FILE: brokers/Mosquitto/docker-compose-Mosquitto.yml
+NR_OF_FAILURES: 2
+FAILURE_INTERVAL: 60
+FAILURE_PERIOD: 180
+
+
